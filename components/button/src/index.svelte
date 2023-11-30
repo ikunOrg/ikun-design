@@ -1,9 +1,15 @@
-<svelte:options customElement="my-custom-counter"/>
-
+<svelte:options customElement="{{
+  tag: 'bee-button'
+}}"/>
 <script lang="ts">
+
 
 </script>
 
-<svelte:element>
+<svelte:element
+  class="button"
+  this={'button'}
+	{...$$restProps}
+>
 
 </svelte:element>

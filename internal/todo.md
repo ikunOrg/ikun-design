@@ -1,10 +1,10 @@
 - [ ] cz支持i18
 - [ ] button 
 - [ ] cssinjs
-- [ ] vue demo
-- [x] stencil store
-- [x] clear script
-- [x] lint script
+- [ ] vue demo 
+- [ ] clear script
+- [ ] lint script
 - [ ] test script
+- [ ] netlify
 
 ncu -uws --root update all deps

@@ -119,6 +119,12 @@ export class MyElement extends LitElement {
     }
   `
 }
+@customElement('my-element2')
+export class MyElement2 extends LitElement {
+  protected render(): unknown {
+    return html`<div>hello</div>`
+  }
+}
 
 declare global {
   interface HTMLElementTagNameMap {

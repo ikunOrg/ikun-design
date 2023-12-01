@@ -36,8 +36,8 @@ export async function build(root:string,options:Options) {
         exportConditions: ['svelte'],
         extensions: ['.mjs', '.js', '.json', '.ts', 'tsx','.svelte'],
       }),
-      terser(),
-      cleanup()
+      // terser(),
+      // cleanup()
     ],
     treeshake:true,
     external:generateExternal(manifest),
